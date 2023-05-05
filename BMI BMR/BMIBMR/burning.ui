@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Burning</class>
+ <widget class="QDialog" name="Burning">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Burning calories</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="1" colspan="2">
+    <spacer name="horizontalSpacer_10">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>105</width>
+       <height>21</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="spin_num">
+     <property name="maximum">
+      <number>7</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QComboBox" name="combo_run">
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>8 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>11 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16 km/h</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_run">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QCheckBox" name="box_team">
+     <property name="text">
+      <string>Team sports</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QCheckBox" name="box_home">
+     <property name="text">
+      <string>Home activities</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1" colspan="2">
+    <spacer name="horizontalSpacer_11">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>26</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="0">
+    <widget class="QCheckBox" name="box_run">
+     <property name="text">
+      <string>Running</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1" colspan="2">
+    <widget class="QComboBox" name="combo_team">
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Basketball</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Football</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tennis</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="8" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_home">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_walk">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="2">
+    <widget class="QComboBox" name="combo_bike">
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>16 - 19 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19 - 22 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>22 - 26 km/h</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_team">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QCheckBox" name="box_lift">
+     <property name="text">
+      <string>Weight lifting</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>Calories burn</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QCheckBox" name="box_bike">
+     <property name="text">
+      <string>Bicycling</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_type">
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QComboBox" name="combo_walk">
+     <property name="placeholderText">
+      <string/>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3 km/h</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5 km/h</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_bike">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QCheckBox" name="box_swim">
+     <property name="text">
+      <string>Swimming</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>Activities number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1" colspan="2">
+    <spacer name="horizontalSpacer_14">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>105</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <widget class="QCheckBox" name="box_walk">
+     <property name="text">
+      <string>Walking</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_swim">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="2">
+    <widget class="QLineEdit" name="line_burn">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="2">
+    <widget class="QLabel" name="label_time">
+     <property name="text">
+      <string>Time (min)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3" colspan="2">
+    <widget class="QLineEdit" name="time_lift">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3" colspan="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Calculate</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLineEdit" name="line_weight">
+     <property name="maxLength">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Weight</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>spin_num</tabstop>
+  <tabstop>line_weight</tabstop>
+  <tabstop>box_walk</tabstop>
+  <tabstop>combo_walk</tabstop>
+  <tabstop>time_walk</tabstop>
+  <tabstop>box_run</tabstop>
+  <tabstop>combo_run</tabstop>
+  <tabstop>time_run</tabstop>
+  <tabstop>box_bike</tabstop>
+  <tabstop>combo_bike</tabstop>
+  <tabstop>time_bike</tabstop>
+  <tabstop>box_team</tabstop>
+  <tabstop>combo_team</tabstop>
+  <tabstop>time_team</tabstop>
+  <tabstop>box_swim</tabstop>
+  <tabstop>time_swim</tabstop>
+  <tabstop>box_lift</tabstop>
+  <tabstop>time_lift</tabstop>
+  <tabstop>box_home</tabstop>
+  <tabstop>time_home</tabstop>
+  <tabstop>line_burn</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

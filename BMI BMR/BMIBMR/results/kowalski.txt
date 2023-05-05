@@ -1,0 +1,11 @@
+Your results:
+Metabolism:	1605 kcal
+You should eat:	2488 kcal
+
+Proteins:	155.5 - 217.7 g
+Fats:		41.5 - 69.1 g
+Carbohydrates:	248.8 - 373.2 g
+
+BMI:		27.3
+
+Goal achieved:	14 Sep 1752

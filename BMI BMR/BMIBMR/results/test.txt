@@ -1,0 +1,11 @@
+Your results:
+Metabolism:	1413 kcal
+You should eat:	2589 kcal
+
+Proteins:	161.8 - 226.6 g
+Fats:		43.2 - 71.9 g
+Carbohydrates:	258.9 - 388.4 g
+
+BMI:		25.3
+
+Goal achieved:	18 Oct 2023
